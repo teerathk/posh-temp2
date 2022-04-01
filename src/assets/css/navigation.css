@@ -1,0 +1,190 @@
+.navigation-container {
+    text-align: right;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+}
+
+.transAnimate {
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+}
+
+#menu-top-menu li.login-tab-cont a {
+    text-decoration: none !important;
+    color: #fff !important;
+    padding: 4px 8px;
+    border-radius: 4px !important;
+    font-size: 13px;
+    font-weight: 600;
+    background:#003087;
+    display: inline;
+}
+
+@media (min-width:1201px) {
+    .navigation {
+     max-width: 760px;
+     display: block;
+     text-align: right;
+     float: right;
+     width: 100%;
+     margin-top: -33px;
+    }
+    .navbar.main-NaveBar {
+        padding: 0;
+        z-index: 999;
+        position:relative;
+        width: 100%;
+        color: #000;
+        z-index: 999;
+        min-height: 95px;
+    }
+    .navbar .container {
+        max-width: 100%;
+        padding: 10px;
+        position: relative;
+    }
+    .primeryManu>li {
+        padding: 0 0px;
+        display: inline-block;
+        margin: 0 10px;
+        text-align: right;
+    }
+
+    .primeryManu>li>a {
+        font-size: 13px;
+        padding: 0px 0px;
+        color: #000 !important;
+        letter-spacing:normal;
+        position: relative;
+        font-weight: 700;
+        text-transform: uppercase;
+       font-family: 'Raleway', sans-serif;
+    }
+    .primeryManu li >a:hover {
+        text-decoration: none;
+        color: #000;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    .primeryManu li ul li a {
+        padding: 10px 10px;
+        letter-spacing: 0.5px;
+        color: #000;
+        border-bottom: 1px solid #eee;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 700;
+       font-family: 'Raleway', sans-serif;
+    }
+    .primeryManu li ul li a:hover {
+        font-size: 13px;
+        color: #000;
+        font-weight: 700;
+        background: #f4f4f4;
+    }
+    .navbar.main-NaveBar.sticky-header {
+        position: fixed;
+        transition: all 0.6s;
+        top: 0;
+        left: 0;
+        animation: smoothScroll 1s forwards;
+    }
+    @keyframes smoothScroll {
+        0% {
+            transform: translateY(-40px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
+    .sticky-header .social-wrapp {
+        transition: all 0.6s;
+    }
+    .sm-clean a .sub-arrow {
+        border-color: #000 transparent transparent transparent;
+    }
+    .sticky-header .navbar-brand img {
+        width: 200px;
+    }
+    /* The radio */
+    
+    .sub-menu li{
+        text-align: left !important;
+        font-size: 13px !important;
+        font-weight: 400;
+    }
+     .sub-menu li a:hover {
+        font-size: 13px;
+        font-weight: 400;
+     }
+    
+    .navigation li >a {
+        font-size: 13px;
+        font-weight: 700;
+        color: #000;
+        opacity: 1;
+    }
+    #menu-top-menu li li a{
+        text-align: left !important;
+        font-size: 13px !important;
+        font-weight: 500 !important;
+       
+    }
+    #menu-top-menu li li a:hover {
+        font-size: 13px !important;
+        font-weight: 700 !important;
+     }
+   div#navbarSupportedContent {
+    display: block !important;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width: 100%;
+} 
+	
+}
+
+
+
+@media (max-width:1200px) {
+    .navigation .navbar-toggler .fa-bars {
+        color: #555;
+        font-size: 40px;
+    }
+    .navigation .navbar-toggler:focus,
+    .navigation .navbar-toggler:active,
+    .navigation .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .primeryManu>li {
+        display: block !important;
+    }
+    
+    .sm {
+        padding-top: 25px;
+        padding-bottom: 7px;
+    }
+    .sub-arrow {
+        background: #108fc4;
+    }
+    .sm, .sm ul, .sm li {
+    text-align: left;
+    color: #000;
+  }
+  #menu-top-menu a {
+    color: #000;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;  
+    font-weight: 700;
+  }
+  .navigation .navbar-toggler {
+    padding: 0;
+    border:0;
+    margin-top: -32px;
+  }
+}
